@@ -1,9 +1,7 @@
-import express, { RequestHandler } from "express";
-import productsRouter from "./product";
-
+import express from "express";
+import contactRouter from "./contact";
 const router = express.Router();
 
-router.use("/products", productsRouter);
-
+router.use(contactRouter);
 
 export default router;

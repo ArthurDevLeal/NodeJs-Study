@@ -1,0 +1,12 @@
+API contact list
+
+- Create new contact
+- List all contacts
+- Modify contact name 
+- Remove contact
+
+- Post: /contacts, {name:string,id:string,number:number}
+- Get: /contacts
+- put: /contacts, {id:string, name:?string, number:?number}
+- delete: /contacts?id=string
+
